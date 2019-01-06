@@ -1,0 +1,462 @@
+WIFI相关的文件
+./system/bin/wifi2agps   【AGPS 辅助定位】
+./system/etc/permissions/android.hardware.wifi.direct.xml
+./system/etc/permissions/android.hardware.wifi.xml
+./system/etc/wifi/p2p_supplicant_overlay.conf
+./system/etc/wifi/wpa_supplicant.conf
+./system/etc/wifi/wpa_supplicant_overlay.conf
+./system/lib/libem_wifi_jni.so
+./system/lib/libpalwlan_mtk.so
+./system/lib/libwifi-service.so
+./system/lib64/libem_wifi_jni.so
+./system/lib64/libwifi-service.so
+./system/lib64/libwifitest.so
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/mtu 【1500】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/type  【1】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/netdev_group  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/flags 【0x1003】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/power 【空文件夹】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/speed  【error】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/dormant 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/addr_assign_type 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/address_mask 【00:00:00:00:00:00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/addresses 【00:00:00:00:00:00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/class【0x00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/device【0x6630】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/ieee80211 【目录】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/ieee80211/phy2【目录】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/ieee80211/phy3【目录】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/modalias  【sdio:c00v037Ad6630】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/uevent
+DRIVER=mtk_sdio_client
+SDIO_CLASS=00
+SDIO_ID=037A:6630
+MODALIAS=sdio:c00v037Ad6630
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/device/vendor 【0x037a】
+
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/index 【2】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/phy80211/name  【phy2】
+
+
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/dev_id  【0x00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/duplex  【Invalid argument】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/iflink  【13】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/subsystem  【目录】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/addr_len  【6】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/address 【64:cc:2e:de:40:c6】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/operstate 【down】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/broadcast 【ff:ff:ff:ff:ff:ff】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues 
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-0
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-0/rps_flow_cnt 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-0/rps_cpus 【00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-1
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-1/rps_flow_cnt
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-1/rps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-2
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-2/rps_flow_cnt
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-2/rps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-3
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-3/rps_flow_cnt
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/rx-3/rps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/xps_cpus 【00】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/tx_timeout 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits/limit  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits/limit_max 【1879048192】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits/limit_min 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits/hold_time 【1000】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-0/byte_queue_limits/inflight 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/xps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/tx_timeout
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits/limit
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits/limit_max
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits/limit_min
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits/hold_time
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-1/byte_queue_limits/inflight
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/xps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/tx_timeout
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits/limit
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits/limit_max
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits/limit_min
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits/hold_time
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-2/byte_queue_limits/inflight
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/xps_cpus
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/tx_timeout
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits/limit
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits/limit_max
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits/limit_min
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits/hold_time
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/queues/tx-3/byte_queue_limits/inflight
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/tx_queue_len  【1000】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/uevent
+DEVTYPE=wlan
+INTERFACE=wlan0
+IFINDEX=13
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/wireless 【空目录】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_fifo_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/collisions  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_errors 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_compressed 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_dropped 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_packets 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_errors 【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_missed_errors【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_over_errors【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_carrier_errors【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_heartbeat_errors【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_crc_errors【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/multicast【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_fifo_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_aborted_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_bytes  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_compressed  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_dropped  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_packets  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_bytes  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/tx_window_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_frame_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/statistics/rx_length_errors  【0】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/ifalias
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/ifindex  【13】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/link_mode 【1】
+./sys/devices/mtk-msdc.0/xxxxxx/mmc_host/mmc2/mmc2:0001/mmc2:0001:1/net/wlan0/carrier   【0】
+./sys/class/net/wlan0
+ls -l  /sys/class/net/wlan0
+-r--r--r--  1 root root 4096 2018-01-08 17:54 addr_assign_type 【0】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 addr_len  【6】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 address 【dc:bf:e9:a3:b3:d7】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 broadcast  【ff:ff:ff:ff:ff:ff】
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 carrier 【0-关】  【1-打开】 
+-r--r--r--  1 root root 4096 2018-01-08 17:54 carrier_changes  【1-关】  【2-打开】 
+-r--r--r--  1 root root 4096 2018-01-08 17:54 dev_id  【0x0】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 dev_port    【0】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 dormant    【0】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 duplex
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 flags 【0x1003】
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 gro_flush_timeout   【0】
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 ifalias 
+-r--r--r--  1 root root 4096 2018-01-08 17:54 ifindex    【24】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 iflink   【24】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 link_mode     【1】
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 mtu    【1500】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 name_assign_type
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 netdev_group   【0】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 operstate    【down】 【up】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 phys_port_id
+-r--r--r--  1 root root 4096 2018-01-08 17:54 phys_port_name
+-r--r--r--  1 root root 4096 2018-01-08 17:54 phys_switch_id
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 proto_down
+-r--r--r--  1 root root 4096 2018-01-08 17:54 speed
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 tx_queue_len  【3000】
+-r--r--r--  1 root root 4096 2018-01-08 17:54 type   【1】
+-rw-r--r--  1 root root 4096 2018-01-08 17:54 uevent   【DEVTYPE=wlan  INTERFACE=wlan0  IFINDEX=24】
+
+lrwxrwxrwx  1 root root    0 2018-01-08 17:54 device -> ../../../18800000.qcom,icnss
+lrwxrwxrwx  1 root root    0 2018-01-08 17:54 subsystem -> ../../../../../class/net
+lrwxrwxrwx  1 root root    0 2018-01-08 17:54 phy80211 -> ../../ieee80211/phy0
+drwxr-xr-x 12 root root    0 2018-01-08 17:54 queues
+drwxr-xr-x  2 root root    0 2018-01-08 17:54 statistics
+drwxr-xr-x  2 root root    0 2018-01-08 17:54 power
+drwxr-xr-x  2 root root    0 2018-01-08 17:54 wireless
+--------------------------------/sys/class/net/wlan0/device--------------------------------
+-rw-r--r-- 1 root root 4096 1970-02-25 11:07 driver_override    【(null)】
+-r--r--r-- 1 root root 4096 1970-02-25 11:07 modalias  【of:Nqcom,icnssT<NULL>Cqcom,icnss】
+-rw-r--r-- 1 root root 4096 1970-02-25 11:06 uevent
+cat  uevent
+DRIVER=icnss
+OF_NAME=qcom,icnss
+OF_FULLNAME=/soc/qcom,icnss@18800000
+OF_COMPATIBLE_0=qcom,icnss
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nqcom,icnssT<NULL>Cqcom,icnss
+
+lrwxrwxrwx 1 root root    0 1970-02-25 11:07 driver -> ../../../bus/platform/drivers/icnss
+drwxr-xr-x 3 root root    0 2018-01-08 18:02 ieee80211
+lrwxrwxrwx 1 root root    0 1970-02-25 11:07 iommu_group -> ../../../kernel/iommu_groups/0
+drwxr-xr-x 3 root root    0 1970-02-25 11:06 misc
+drwxr-xr-x 4 root root    0 2018-01-08 18:02 net
+lrwxrwxrwx 1 root root    0 1970-02-25 11:07 of_node -> ../../../firmware/devicetree/base/soc/qcom,icnss@18800000
+drwxr-xr-x 2 root root    0 1970-02-25 11:06 power
+lrwxrwxrwx 1 root root    0 1970-02-25 11:07 subsystem -> ../../../bus/platform
+
+--------------------------------/sys/class/net/wlan0/subsystem--------------------------------
+-rw-r--r-- 1 root root 4096 2018-01-14 22:07 bonding_masters
+lrwxrwxrwx 1 root root    0 1970-02-25 11:07 bond0 -> ../../devices/virtual/net/bond0
+lrwxrwxrwx 1 root root    0 2018-01-14 22:07 dummy0 -> ../../devices/virtual/net/dummy0
+lrwxrwxrwx 1 root root    0 2018-01-14 22:07 lo -> ../../devices/virtual/net/lo
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 p2p0 -> ../../devices/soc/18800000.qcom,icnss/net/p2p0
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data0 -> ../../devices/virtual/net/r_rmnet_data0
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data1 -> ../../devices/virtual/net/r_rmnet_data1
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data2 -> ../../devices/virtual/net/r_rmnet_data2
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data3 -> ../../devices/virtual/net/r_rmnet_data3
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data4 -> ../../devices/virtual/net/r_rmnet_data4
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data5 -> ../../devices/virtual/net/r_rmnet_data5
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data6 -> ../../devices/virtual/net/r_rmnet_data6
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data7 -> ../../devices/virtual/net/r_rmnet_data7
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 r_rmnet_data8 -> ../../devices/virtual/net/r_rmnet_data8
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data0 -> ../../devices/virtual/net/rmnet_data0
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data1 -> ../../devices/virtual/net/rmnet_data1
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data2 -> ../../devices/virtual/net/rmnet_data2
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data3 -> ../../devices/virtual/net/rmnet_data3
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data4 -> ../../devices/virtual/net/rmnet_data4
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data5 -> ../../devices/virtual/net/rmnet_data5
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data6 -> ../../devices/virtual/net/rmnet_data6
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_data7 -> ../../devices/virtual/net/rmnet_data7
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 rmnet_ipa0 -> ../../devices/virtual/net/rmnet_ipa0
+lrwxrwxrwx 1 root root    0 2018-01-14 22:07 sit0 -> ../../devices/virtual/net/sit0
+lrwxrwxrwx 1 root root    0 2018-01-14 22:07 usb0 -> ../../devices/virtual/net/usb0
+lrwxrwxrwx 1 root root    0 2018-01-08 18:02 wlan0 -> ../../devices/soc/18800000.qcom,icnss/net/wlan0
+
+
+--------------------------------/sys/class/net/wlan0/phy80211--------------------------------
+-r--r--r-- 1 root root 4096 2018-01-14 22:09 address_mask  【00:00:00:00:00:00】
+-r--r--r-- 1 root root 4096 2018-01-14 22:09 addresses 【00:00:00:00:00:00】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:09 uevent
+-r--r--r-- 1 root root 4096 2018-01-14 22:09 index   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:09 macaddress   【00:00:00:00:00:00】
+-r--r--r-- 1 root root 4096 2018-01-14 22:09 name   【phy0】
+drwxr-xr-x 2 root root    0 2018-01-14 22:09 power
+drwxr-xr-x 3 root root    0 2018-01-08 18:02 rfkill1
+lrwxrwxrwx 1 root root    0 2018-01-14 22:09 subsystem -> ../../../../../class/ieee80211
+lrwxrwxrwx 1 root root    0 2018-01-14 22:09 device -> ../../../18800000.qcom,icnss
+
+/sys/class/net/wlan0/phy80211/power
+-rw-r--r-- 1 root root 4096 2018-01-14 22:11 autosuspend_delay_ms
+-rw-r--r-- 1 root root 4096 2018-01-14 22:11 control   【auto】
+-r--r--r-- 1 root root 4096 2018-01-14 22:11 runtime_active_time   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:11 runtime_status   【unsupported】
+-r--r--r-- 1 root root 4096 2018-01-14 22:11 runtime_suspended_time  【0】
+
+/sys/class/net/wlan0/phy80211/rfkill1
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 claim    【0】
+lrwxrwxrwx 1 root root    0 2018-01-14 22:13 device -> ../../phy0
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 hard   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 index  【1】
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 name    【phy0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 persistent   【0】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:13 soft  【0】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:13 state     【1】
+-r--r--r-- 1 root root 4096 2018-01-14 22:13 type    【wlan】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:13 uevent  【RFKILL_NAME=phy0   RFKILL_TYPE=wlan   RFKILL_STATE=1】
+lrwxrwxrwx 1 root root    0 2018-01-14 22:13 subsystem -> ../../../../../../class/rfkill
+drwxr-xr-x 2 root root    0 2018-01-14 22:13 power
+
+
+
+--------------------------------/sys/class/net/wlan0/queues--------------------------------
+drwxr-xr-x 2 root root 0 2018-01-08 18:02 rx-0
+drwxr-xr-x 2 root root 0 2018-01-08 18:02 rx-1
+drwxr-xr-x 2 root root 0 2018-01-08 18:02 rx-2
+drwxr-xr-x 2 root root 0 2018-01-08 18:02 rx-3
+drwxr-xr-x 2 root root 0 2018-01-08 18:02 rx-4
+drwxr-xr-x 3 root root 0 2018-01-08 18:02 tx-0
+drwxr-xr-x 3 root root 0 2018-01-08 18:02 tx-1
+drwxr-xr-x 3 root root 0 2018-01-08 18:02 tx-2
+drwxr-xr-x 3 root root 0 2018-01-08 18:02 tx-3
+drwxr-xr-x 3 root root 0 2018-01-08 18:02 tx-4
+/sys/class/net/wlan0/queues/rx-0
+-rw-r--r-- 1 root root 4096 2018-01-14 22:18 rps_cpus   【00】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:18 rps_flow_cnt   【0】
+
+/sys/class/net/wlan0/queues/tx-3
+-rw-r--r-- 1 root root 4096 2018-01-14 22:19 tx_maxrate    【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:19 tx_timeout     【0】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:19 xps_cpus      【00】
+drwxr-xr-x 2 root root    0 2018-01-14 22:19 byte_queue_limits
+/sys/class/net/wlan0/queues/byte_queue_limits
+-rw-r--r-- 1 root root 4096 2018-01-14 22:20 hold_time  【1000】
+-r--r--r-- 1 root root 4096 2018-01-14 22:20 inflight     【0】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:20 limit    【0】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:20 limit_max   【1879048192】
+-rw-r--r-- 1 root root 4096 2018-01-14 22:20 limit_min   【0】
+--------------------------------/sys/class/net/wlan0/statistics--------------------------------
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 collisions   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 multicast   【0】
+-r--r--r-- 1 root root 4096 2018-01-08 18:03 rx_bytes  【187495】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_compressed    【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_crc_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_dropped   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_fifo_errors    【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_frame_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_length_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_missed_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_over_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 rx_packets  【618】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_aborted_errors  【0】
+-r--r--r-- 1 root root 4096 2018-01-08 18:03 tx_bytes   【328206】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_carrier_errors   【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_compressed  【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_dropped  【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_errors  【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_fifo_errors  【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_heartbeat_errors  【0】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_packets  【1556】
+-r--r--r-- 1 root root 4096 2018-01-14 22:22 tx_window_errors  【0】
+--------------------------------/sys/class/net/wlan0/wireless空--------------------------------
+
+
+
+
+
+
+./sys/kernel/debug/tracing/..../cfg80211/cfg80211_report_wowlan_wakeup
+./sys/kernel/debug/tracing/..../cfg80211/cfg80211_report_wowlan_wakeup/format
+name: cfg80211_report_wowlan_wakeup
+ID: 420
+format:
+        field:unsigned short common_type;       offset:0;       size:2; signed:0;
+        field:unsigned char common_flags;       offset:2;       size:1; signed:0;
+        field:unsigned char common_preempt_count;       offset:3;       size:1; signed:0;
+        field:int common_pid;   offset:4;       size:4; signed:1;
+
+        field:char wiphy_name[32];      offset:8;       size:32;        signed:0;
+        field:u32 id;   offset:40;      size:4; signed:0;
+        field:bool non_wireless;        offset:44;      size:1; signed:0;
+        field:bool disconnect;  offset:45;      size:1; signed:0;
+        field:bool magic_pkt;   offset:46;      size:1; signed:0;
+        field:bool gtk_rekey_failure;   offset:47;      size:1; signed:0;
+        field:bool eap_identity_req;    offset:48;      size:1; signed:0;
+        field:bool four_way_handshake;  offset:49;      size:1; signed:0;
+        field:bool rfkill_release;      offset:50;      size:1; signed:0;
+        field:s32 pattern_idx;  offset:52;      size:4; signed:1;
+        field:u32 packet_len;   offset:56;      size:4; signed:0;
+        field:__data_loc u8[] packet;   offset:60;      size:4; signed:0;
+
+print fmt: "%s, wdev(%u)", REC->wiphy_name, (REC->id)
+./sys/kernel/debug/tracing/events/cfg80211/cfg80211_report_wowlan_wakeup/filter  【none】
+./sys/kernel/debug/tracing/events/cfg80211/cfg80211_report_wowlan_wakeup/id  【420】
+./sys/kernel/debug/tracing/events/cfg80211/cfg80211_report_wowlan_wakeup/enable  【0】
+./sys/module/smi_common/parameters/wifi_disp_transaction   【0】
+./proc/sys/net/ipv4/conf/wlan0
+./proc/sys/net/ipv4/conf/wlan0/accept_local      【0】
+./proc/sys/net/ipv4/conf/wlan0/accept_redirects  【1】
+./proc/sys/net/ipv4/conf/wlan0/accept_source_route  【1】
+./proc/sys/net/ipv4/conf/wlan0/arp_accept  【0】
+./proc/sys/net/ipv4/conf/wlan0/arp_announce 【0】
+./proc/sys/net/ipv4/conf/wlan0/arp_filter 【0】
+./proc/sys/net/ipv4/conf/wlan0/arp_ignore 【0】
+./proc/sys/net/ipv4/conf/wlan0/arp_notify 【0】
+./proc/sys/net/ipv4/conf/wlan0/bootp_relay 【0】
+./proc/sys/net/ipv4/conf/wlan0/disable_policy 【0】
+./proc/sys/net/ipv4/conf/wlan0/disable_xfrm 【0】
+./proc/sys/net/ipv4/conf/wlan0/force_igmp_version 【0】
+./proc/sys/net/ipv4/conf/wlan0/forwarding 【0】
+./proc/sys/net/ipv4/conf/wlan0/log_martians 【0】
+./proc/sys/net/ipv4/conf/wlan0/mc_forwarding 【0】
+./proc/sys/net/ipv4/conf/wlan0/medium_id 【0】
+./proc/sys/net/ipv4/conf/wlan0/promote_secondaries 【0】
+./proc/sys/net/ipv4/conf/wlan0/proxy_arp 【0】
+./proc/sys/net/ipv4/conf/wlan0/proxy_arp_pvlan 【0】
+./proc/sys/net/ipv4/conf/wlan0/route_localnet 【0】
+./proc/sys/net/ipv4/conf/wlan0/rp_filter【0】
+./proc/sys/net/ipv4/conf/wlan0/secure_redirects 【0】
+./proc/sys/net/ipv4/conf/wlan0/send_redirects 【0】
+./proc/sys/net/ipv4/conf/wlan0/shared_media   【1】
+./proc/sys/net/ipv4/conf/wlan0/src_valid_mark 【0】
+./proc/sys/net/ipv4/conf/wlan0/tag 【0】
+./proc/sys/net/ipv4/neigh/wlan0
+./proc/sys/net/ipv4/neigh/wlan0/anycast_delay   【100】
+./proc/sys/net/ipv4/neigh/wlan0/app_solicit 【0】
+./proc/sys/net/ipv4/neigh/wlan0/base_reachable_time  【30】
+./proc/sys/net/ipv4/neigh/wlan0/base_reachable_time_ms 【30000】
+./proc/sys/net/ipv4/neigh/wlan0/delay_first_probe_time  【5】
+./proc/sys/net/ipv4/neigh/wlan0/gc_stale_time  【60】
+./proc/sys/net/ipv4/neigh/wlan0/locktime  【100】
+./proc/sys/net/ipv4/neigh/wlan0/mcast_solicit  【3】
+./proc/sys/net/ipv4/neigh/wlan0/proxy_delay   【80】
+./proc/sys/net/ipv4/neigh/wlan0/proxy_qlen  【64】
+./proc/sys/net/ipv4/neigh/wlan0/retrans_time  【100】
+./proc/sys/net/ipv4/neigh/wlan0/retrans_time_ms 【100000】
+./proc/sys/net/ipv4/neigh/wlan0/ucast_solicit  【3】
+./proc/sys/net/ipv4/neigh/wlan0/unres_qlen  【31】
+./proc/sys/net/ipv4/neigh/wlan0/unres_qlen_bytes  【65536】
+./proc/sys/net/ipv6/conf/wlan0
+./proc/sys/net/ipv6/conf/wlan0/accept_dad
+./proc/sys/net/ipv6/conf/wlan0/accept_ra
+./proc/sys/net/ipv6/conf/wlan0/accept_ra_defrtr
+./proc/sys/net/ipv6/conf/wlan0/accept_ra_pinfo
+./proc/sys/net/ipv6/conf/wlan0/accept_ra_rt_info_max_plen
+./proc/sys/net/ipv6/conf/wlan0/accept_ra_rt_table
+./proc/sys/net/ipv6/conf/wlan0/accept_ra_rtr_pref
+./proc/sys/net/ipv6/conf/wlan0/accept_redirects
+./proc/sys/net/ipv6/conf/wlan0/accept_source_route
+./proc/sys/net/ipv6/conf/wlan0/autoconf
+./proc/sys/net/ipv6/conf/wlan0/dad_transmits
+./proc/sys/net/ipv6/conf/wlan0/disable_ipv6
+./proc/sys/net/ipv6/conf/wlan0/force_mld_version
+./proc/sys/net/ipv6/conf/wlan0/force_tllao
+./proc/sys/net/ipv6/conf/wlan0/forwarding
+./proc/sys/net/ipv6/conf/wlan0/hop_limit
+./proc/sys/net/ipv6/conf/wlan0/max_addresses
+./proc/sys/net/ipv6/conf/wlan0/max_desync_factor
+./proc/sys/net/ipv6/conf/wlan0/mc_forwarding
+./proc/sys/net/ipv6/conf/wlan0/mtu
+./proc/sys/net/ipv6/conf/wlan0/ndisc_notify
+./proc/sys/net/ipv6/conf/wlan0/optimistic_dad
+./proc/sys/net/ipv6/conf/wlan0/proxy_ndp
+./proc/sys/net/ipv6/conf/wlan0/ra_info_flag
+./proc/sys/net/ipv6/conf/wlan0/regen_max_retry
+./proc/sys/net/ipv6/conf/wlan0/router_probe_interval
+./proc/sys/net/ipv6/conf/wlan0/router_solicitation_delay
+./proc/sys/net/ipv6/conf/wlan0/router_solicitation_interval
+./proc/sys/net/ipv6/conf/wlan0/router_solicitations
+./proc/sys/net/ipv6/conf/wlan0/temp_prefered_lft
+./proc/sys/net/ipv6/conf/wlan0/temp_valid_lft
+./proc/sys/net/ipv6/conf/wlan0/use_optimistic
+./proc/sys/net/ipv6/conf/wlan0/use_tempaddr
+./proc/sys/net/ipv6/neigh/wlan0
+./proc/sys/net/ipv6/neigh/wlan0/anycast_delay
+./proc/sys/net/ipv6/neigh/wlan0/app_solicit
+./proc/sys/net/ipv6/neigh/wlan0/base_reachable_time
+./proc/sys/net/ipv6/neigh/wlan0/base_reachable_time_ms
+./proc/sys/net/ipv6/neigh/wlan0/delay_first_probe_time
+./proc/sys/net/ipv6/neigh/wlan0/gc_stale_time
+./proc/sys/net/ipv6/neigh/wlan0/locktime
+./proc/sys/net/ipv6/neigh/wlan0/mcast_solicit
+./proc/sys/net/ipv6/neigh/wlan0/proxy_delay
+./proc/sys/net/ipv6/neigh/wlan0/proxy_qlen
+./proc/sys/net/ipv6/neigh/wlan0/retrans_time
+./proc/sys/net/ipv6/neigh/wlan0/retrans_time_ms
+./proc/sys/net/ipv6/neigh/wlan0/ucast_solicit
+./proc/sys/net/ipv6/neigh/wlan0/unres_qlen
+./proc/sys/net/ipv6/neigh/wlan0/unres_qlen_bytes
+./proc/driver/thermal/wifi_tx_thro  【0】
+./proc/1/net/wlan0
+./proc/1/net/wlan0/met_port  【I/O error】
+./proc/1/net/wlan0/met_ctrl
+./proc/1/net/dev_snmp6/wlan0
+./data/misc/wifi
+./data/misc/wifi/sockets
+./data/misc/wifi/sockets/wpa_ctrl_1108-3
+./data/misc/wifi/sockets/wpa_ctrl_1108-4
+./data/misc/wifi/sockets/wlan0
+./data/misc/wifi/sockets/p2p0
+./data/misc/wifi/wpa_supplicant  【空目录】
+./data/misc/wifi/softap.conf
+./data/misc/wifi/p2p_supplicant.conf
+./data/misc/wifi/wpa_supplicant.conf
+./data/misc/wifi/entropy.bin
+./data/misc/wifi/networkHistory.txt
+./data/misc/wifi/hostapd.conf
+./data/misc/wifi/ipconfig.txt
+./data/misc/wifi/hostapd
+./data/misc/wifi/hostapd/ap0
+./data/misc/dhcp/dhcpcd-wlan0.pid
+./data/misc/dhcp/dhcpcd-wlan0.lease  
+./data/data/com.android.settings/databases/wifi_settings.db
+./data/agps_supl/wifi_2_agps
+./dev/socket/wpa_wlan0
+
